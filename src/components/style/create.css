@@ -1,0 +1,47 @@
+.create_top {
+    height: 7em;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left: 7.3rem; */
+    background: rgba(248, 249, 253, 1);
+}
+
+.create_top h2 {
+    margin-left: 5.3rem;
+}
+
+.create_form form {
+    display: flex;
+    flex-direction: column;
+    /* gap: 3rem; */
+    margin-left: 5.3rem;
+}
+
+label {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+input {
+    height: 2rem;
+    width: 25rem;
+}
+
+.select_level {
+    margin-bottom: 2rem;
+}
+
+.create_form form button {
+    width: 13rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(68, 146, 76, 1);
+}
+
+.detail {
+    width: 40rem;
+    height: 15rem;
+}

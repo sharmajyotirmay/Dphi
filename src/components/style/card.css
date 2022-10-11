@@ -1,0 +1,55 @@
+.cards_container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    justify-content: center;
+    align-content: center;
+}
+
+.hackathon_preview {
+    height: fit-content;
+    max-width: 354px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_text {
+    padding: 3em 4rem 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.card_text .status {
+    background: rgba(242, 201, 76, 0.25);
+    padding: 0 .8rem 0 .8rem;
+    border-radius: 5px;
+}
+.card_text h2 {
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 1rem;
+}
+.participate {
+    margin: 1rem;
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    background: rgba(68, 146, 76, 1);
+    color: white;
+}
+
+.nav-links-home{
+    background: rgba(68, 146, 76, 1);
+    padding: .3rem 1rem .3rem 1rem;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    color: white;
+}

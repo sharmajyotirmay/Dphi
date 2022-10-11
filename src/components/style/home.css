@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-container {
+    /* margin: 1.3rem; */
+    
+    background: rgba(0, 49, 69, 1);
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-left: 1.3rem;
+    padding-top: 4rem;
+    color: white;
+    margin-right: 1.3rem;
+}
+
+.texts h1 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.texts p {
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+
+.btn{
+    width: 100vw;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    width: 12em;
+    height: 3em;
+    border-radius: 30px;
+}
+
+.stats {
+    background: rgba(0, 42, 59, 1);
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: white;
+    padding-left: 20vw;
+}
+
+.stats .submissions {
+    width: 60vw;
+    height: 6em;
+    display: flex;
+    gap: 1rem;
+    background: grey;
+    padding: .7rem;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats .scientists {
+    width: 60vw;
+    height: 6em;
+    display: flex;
+    gap: 1rem;
+    background: grey;
+    padding: .7rem;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats .hosted {
+    width: 60vw;
+    display: flex;
+    height: 6em;
+    gap: 1rem;
+    background: grey;
+    padding: .7rem;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 900px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .texts{
+        padding-top: 7rem;
+        max-width: 45vw;
+        margin-left: 12rem;
+        /* line-height: 10px; */
+    }
+    .texts h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .texts p {
+        font-size: 18px;
+        line-height: 2rem;
+        font-weight: lighter;
+        max-width: 38vw;
+        /* padding: 1.5rem; */
+    }
+    .btn {
+        margin-left: 12rem;
+        justify-content: flex-start;
+        height: auto;
+        padding: 2rem 0 5rem 0;
+    }
+
+    .btn button {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+    }
+    
+
+    .stats .submissions {
+        background: rgba(0, 42, 59, 1);
+    }
+
+    .stats .scientists {
+        background: rgba(0, 42, 59, 1);
+    }
+
+    .stats .hosted {
+        background: rgba(0, 42, 59, 1);
+    }
+}

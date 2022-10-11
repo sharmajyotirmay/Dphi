@@ -1,0 +1,61 @@
+{
+  "Hackathons": [
+    {
+      "name": "Data Science Bootcamp - Graded Datathon",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Data Science Bootcamp - Graded Datathon",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Active"
+    },
+    {
+      "name": "Data Science Bootcamp - Graded Datathon",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Active"
+    },
+
+    {
+      "name": "Data Science Bootcamp - Graded Datathon",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Active"
+    },
+
+    {
+      "name": "Data Science Bootcamp - Graded Datathon",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Active"
+    },
+
+    {
+      "name": "Data Science Bootcamp - Graded Datathon",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Active"
+    }
+  ]
+}

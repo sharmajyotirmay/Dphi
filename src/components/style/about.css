@@ -1,0 +1,42 @@
+.about_container {
+    padding: 1.3rem;
+}
+
+.green {
+    color: rgba(68, 146, 76, 1);
+}
+
+.skills ,.community ,.challenge ,.recognition {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+@media only screen and (min-width: 900px){
+    .about_container{
+        padding: 5rem;
+    }
+    .about_container h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .card{
+        background: rgba(248, 249, 253, 1);
+        padding: 4rem 2rem;
+        width: 30em;
+        border-radius: 20px;
+    }
+}

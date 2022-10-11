@@ -1,0 +1,82 @@
+.hackathon_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: rgba(0, 49, 69, 1);
+}
+/* #filter {
+    min-width: 2em; */
+/* } */
+
+select {
+    max-width: 5em;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding: .3em;
+}
+
+.top_bar {
+    min-height: 10em;
+    max-height: 20em;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 42, 59, 1);
+    gap: 2em;
+}
+.top_bar .applied_filter {
+    min-width: 5em;
+    background: rgba(248, 249, 253, 0.49);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    /* padding: .4rem 3rem .4rem .3rem; */
+    padding: 0 1rem 0 1rem;
+}
+
+.top_bar button {
+    background: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.top_bar h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.input_bar {
+    display: flex;
+    gap: 1em;
+    /* max-width: 20em; */
+    /* width: 3em; */
+
+}
+
+.input_bar input {
+    max-width: 80em;
+    width: 70em;
+    height: 3rem;
+    border-radius: 7px;
+}
+
+.input_bar button {
+    width: 8em;
+    border-radius: 8px;
+}
+
+.hackathon_cards {
+    width: 100vw;
+    margin-top: 9em;
+    margin-bottom: 2em;
+}
