@@ -7,55 +7,61 @@
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
-      "status": "Upcoming"
+      "status": "Upcoming",
+      "id" : 1
     },
     {
-      "name": "Data Science Bootcamp - Graded Datathon",
+      "name": "Data Sprint 72 - Butterfly Identification",
       "startdate": "10-10-2022",
       "enddate": "12-10-2022",
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
-      "status": "Active"
+      "status": "Active",
+      "id" : 2
     },
     {
-      "name": "Data Science Bootcamp - Graded Datathon",
+      "name": "Data Sprint 71 - Weather Recognition",
       "startdate": "10-10-2022",
       "enddate": "12-10-2022",
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
-      "status": "Active"
-    },
-
-    {
-      "name": "Data Science Bootcamp - Graded Datathon",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
-      "discription": "",
-      "image": "./1.png",
-      "level": "Easy",
-      "status": "Active"
+      "status": "Upcoming",
+      "id" : 3
     },
 
     {
-      "name": "Data Science Bootcamp - Graded Datathon",
+      "name": "Data Sprint 70-Airline Passenger Satisfaction",
       "startdate": "10-10-2022",
       "enddate": "12-10-2022",
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
-      "status": "Active"
+      "status": "Past",
+      "id" : 4
     },
 
     {
-      "name": "Data Science Bootcamp - Graded Datathon",
+      "name": "Engineering Graduates Employment Outcomes",
       "startdate": "10-10-2022",
       "enddate": "12-10-2022",
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
-      "status": "Active"
+      "status": "Past",
+      "id" : 5
+    },
+
+    {
+      "name": "Travel Insurance Claim Prediction",
+      "startdate": "10-10-2022",
+      "enddate": "12-10-2022",
+      "discription": "",
+      "image": "./1.png",
+      "level": "Easy",
+      "status": "Past",
+      "id" : 6
     }
   ]
 }

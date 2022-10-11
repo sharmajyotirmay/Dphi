@@ -33,7 +33,7 @@ export default function Cards({hackathons, filter}) {
             </Link>
         )))}
         {
-          filter !== "All" && (hackathons.filter(hackathon => (hackathon.level === filter)).map(
+          filter !== "All" && (hackathons.filter(hackathon => (hackathon.status === filter)).map(
             hackathon => (
               <Link>
             <div className="hackathon_preview" key = {hackathon.id}>

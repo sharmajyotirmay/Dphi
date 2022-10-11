@@ -21,4 +21,7 @@
     .challanges {
         display: none;
     }
+    .nav-container h1 {
+        margin-left: 5.3rem;
+    }
 }

@@ -19,6 +19,8 @@ export default function Hackathons(setHackathon) {
          <div className="input_bar">
             <input type="text" />
             {/* <button type='dropdown'>filter</button> */}
+            <div className="select_filters">
+
             <select name="filters" id="filters" 
             onChange = {handleChange}
             >
@@ -36,7 +38,7 @@ export default function Hackathons(setHackathon) {
                 Upcoming
               </option>
               </optgroup>
-              <optgroup label='Level'>
+              {/* <optgroup label='Level'>
               <option value="Easy">
                 Easy
               </option>
@@ -46,9 +48,9 @@ export default function Hackathons(setHackathon) {
               <option value="Hard">
                 Hard
               </option>
-              </optgroup>
+              </optgroup> */}
             </select>
-            .
+          </div>
          </div>
          {filter !== "All" && <div className="applied_filter">
           <h2>{filter}</h2>
@@ -57,8 +59,8 @@ export default function Hackathons(setHackathon) {
           className='filter_delete'>X</button>
          </div>}
         </div>
-        <div className="hackathon_cards">
           {/* <Cards setHackathon = {setHackathon}/> */}
+        <div className="hackathon_cards">
           { error && <div>{ error }</div> }
           { isPending && <div>Loading...</div> }
           { hackathons && <Cards hackathons={hackathons} filter = {filter}/> }
