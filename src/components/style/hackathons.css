@@ -58,9 +58,22 @@ select {
 .input_bar {
     display: flex;
     gap: 1em;
+    justify-content: center;
+    align-items: center;
     /* max-width: 20em; */
     /* width: 3em; */
 
+}
+
+.input_bar .select_filters {
+    position: relative;
+    /* width: 30em; */
+}
+
+.input_bar select {
+    width: 40rem;
+    /* padding: 2rem; */
+    font-size: 1rem;
 }
 
 .input_bar input {

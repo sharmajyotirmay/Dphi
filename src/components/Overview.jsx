@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style/overview.css"
-import { useNavigate, useParams , Redirect} from "react-router-dom";
+import { useNavigate, useParams , Redirect, NavLink} from "react-router-dom";
 import useFetch from "../useFetch";
 export default function Overview() {
     const { id } = useParams();
@@ -30,7 +30,22 @@ export default function Overview() {
                     Overview
                 </h3>
                 <div className="delete_btn">
-                <button className='Edit'>Edit</button>
+                <NavLink
+                exact
+                to= {`/create`}
+                activeClassName="active"
+                className="Edit"
+                style={{
+                  color: "white",
+                  width: "5em",
+                  height: "2em",
+                  fontSize: ".9rem",
+                  background: "rgba(68, 146, 76, 1)"
+                }}
+                // onClick = {() => giveoverview(hackathon)}
+                >
+                Edit
+      </NavLink>
                 <button onClick={handleDelete} className='Delete'>Delete</button>
                 </div>
             </div>
