@@ -1,67 +1,26 @@
 {
   "Hackathons": [
     {
-      "name": "Data Science Bootcamp - Graded Datathon",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
-      "discription": "",
-      "image": "./1.png",
-      "level": "Easy",
-      "status": "Upcoming",
-      "id" : 1
-    },
-    {
       "name": "Data Sprint 72 - Butterfly Identification",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
+      "startdate": "2021-12-23",
+      "enddate": "2022-10-21",
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
       "status": "Active",
-      "id" : 2
+      "timer": "",
+      "id": 2
     },
     {
       "name": "Data Sprint 71 - Weather Recognition",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
+      "startdate": "2021-12-23",
+      "enddate": "2022-10-21",
       "discription": "",
       "image": "./1.png",
       "level": "Easy",
-      "status": "Upcoming",
-      "id" : 3
-    },
-
-    {
-      "name": "Data Sprint 70-Airline Passenger Satisfaction",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
-      "discription": "",
-      "image": "./1.png",
-      "level": "Easy",
-      "status": "Past",
-      "id" : 4
-    },
-
-    {
-      "name": "Engineering Graduates Employment Outcomes",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
-      "discription": "",
-      "image": "./1.png",
-      "level": "Easy",
-      "status": "Past",
-      "id" : 5
-    },
-
-    {
-      "name": "Travel Insurance Claim Prediction",
-      "startdate": "10-10-2022",
-      "enddate": "12-10-2022",
-      "discription": "",
-      "image": "./1.png",
-      "level": "Easy",
-      "status": "Past",
-      "id" : 6
+      "status": "Active",
+      "timer": "",
+      "id": 3
     }
   ]
 }

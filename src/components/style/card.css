@@ -8,7 +8,7 @@
 }
 
 .hackathon_preview {
-    height: fit-content;
+    min-height: fit-content;
     max-width: 354px;
     background: white;
     border-radius: 15px;
@@ -16,6 +16,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+.hackathon_preview img {
+    max-width: 354px;
+    max-height: 174px;
 }
 
 .card_text {

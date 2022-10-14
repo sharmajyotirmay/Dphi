@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Create from './components/Create';
 import Home from './components/Home';
+import Loading from './components/Loading';
 import Navbar from './components/Navbar';
 import Overview from './components/Overview'
 
@@ -15,6 +16,7 @@ function App() {
       <Route exact path='/' element = {<Home />}/>
       <Route path='/create' element = {<Create/>}/>
       <Route path='/Hackathons/:id' element = {<Overview/>}/>
+      <Route path = '/loading' element = {<Loading/>}/>
       {/* <Route path='/card' element = {<Card/>}/> */}
       {/* <Route path='/overview' element = {<Overview/>}/> */}
     </Routes>

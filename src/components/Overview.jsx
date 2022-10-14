@@ -2,6 +2,7 @@ import React from 'react'
 import "./style/overview.css"
 import { useNavigate, useParams , Redirect, NavLink} from "react-router-dom";
 import useFetch from "../useFetch";
+import Loading from './Loading';
 export default function Overview() {
     const { id } = useParams();
     const { data: hackathons, error, isPending } = useFetch('http://localhost:8000/Hackathons/' + id);
@@ -16,7 +17,7 @@ export default function Overview() {
     }
   return (
     <div className='overview_container'>
-        { isPending && <div>Loading...</div> }
+        { isPending && <div><Loading/></div> }
       { error && <div>{ error }</div> }
         {hackathons && (<div className="hackathon_detail">
             <div className="top_overview_part">
